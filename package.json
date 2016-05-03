@@ -1,0 +1,29 @@
+{
+  "name": "poker",
+  "version": "1.0.0",
+  "description": "poker",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "NODE_ENV=unittest node_modules/mocha/bin/mocha tests --recursive"
+  },
+  "description": "ExpatConnect Express app",
+  "author": {
+    "name": "Ferenc Sticza",
+    "email": "ferenc.sticza@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fsticza/poker.git"
+  },
+  "keywords": [
+    "node",
+    "poker"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.11.2",
+    "mocha": "^2.4.5",
+    "chai": "^3.5.0"
+  }
+}
